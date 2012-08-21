@@ -1,5 +1,5 @@
 <?php
-/* lp app root */
+* lp app root */
 // ↑____ for aoi . Do Not Delete it.
 /****  load lp framework  ***/
 define( 'DS' , DIRECTORY_SEPARATOR );
