@@ -1,4 +1,4 @@
-cscope 15 F:\Site\stew"               0000438817
+cscope 15 F:\Site\stew\1"               0000439400
 	@F:\Site\stew\1\_lp\core\config\core.config.php
 
 1 <?
@@ -57311,7 +57311,7 @@ php
 
 2 
 	g$GLOBALS
-['config']['site_name'] = 'LazyPHP3';
+['config']['site_name'] = 'CocoNote';
 
 3 
 	g$GLOBALS
@@ -57478,66 +57478,72 @@ $d©a
 ['title'] = $data['top_title'] = 'é¦–é¡µ';
 
 15 
+	`»nd”
+Ğ
+$d©a
+ );
+
+18 
 echo
  "$data";
 
-16 
+19 
 echo
  " byƒcho <br />";
 
-17 
+20 
 	`´št_r
 (
 $d©a
 );
 
-18 
+21 
 echo
  " by…ring_r <br />";
 
-19 
+22 
 	`v¬_dump
 (
 $d©a
 );
 
-20 
+23 
 echo
  " by var_dump <br />";
 
-21 
+24 
 	`v¬_expÜt
 (
 $d©a
 );
 
-22 
+25 
 echo
  " by var_export <br />";
 
-23 
+26 
 	`debug_zv®_dump
 (
 $d©a
 );
 
-24 
+27 
 echo
  " by debug_zval_dump <br />";
 
-25 
+28 
 	`debug_´št_backŒaû
 ();
 
-26 
+29 
 echo
  " by debug_pring_backtrace <br />";
 
-27 
+30 
 	`šşude_Úû
 ('FirePHPCore/fb.php');
 
-28 
+31 
 FB
 ::
 	`log
@@ -57545,175 +57551,173 @@ FB
 $d©a
 );
 
-29 
-	`»nd”
-Ğ
-$d©a
- );
-
-30 
+32 
 	}
 }
 
-32 
+34 
 funùiÚ
  
 	$ajax_‹¡
 ()
 
-34  
+36  
 	`ajax_echo
 ('1234');
 
-35 
+37 
 	}
 }
 
-37 
+39 
 funùiÚ
  
 	$»¡
 ()
 
-39 
+41 
 $d©a
  = 
 	`¬¿y
 ( );
 
-40 ifĞ
+42 ifĞ
 	`štv®
 (
 	`v
 ('o')) == 1 )
 
-42 
+44 
 $d©a
 ['code'] = 123;
 
-43 
+45 
 $d©a
 ['message'] = 'RPWT';
 
-47 
+49 
 $d©a
 ['code'] = 0 ;
 
-48 
+50 
 $d©a
 ['d©a'] = 
 	`¬¿y
 ( '2' , '4' , '6' , '8' );
 
-51 
+53 
 	`»nd”
 Ğ
 $d©a
  , 'rest' );
 
-52 
+54 
 	}
 }
 
-54 
+56 
 funùiÚ
  
 	$mobe
 ()
 
-56 
+58 
 $d©a
 ['title'] = $data['top_title'] = 'JQMobi';
 
-57 
+59 
 	`»nd”
 Ğ
 $d©a
  , 'mobile' );
 
-58 
+60 
 	}
 }
 
-60 
+62 
 funùiÚ
  
 	$ajax_lßd
 ()
 
-62  
+64 
+	`d©e_deçuÉ_timezÚe_£t
+('Asia/Chongqing');
+
+65  
 	`ajax_echo
 ('H–lØ' . 
 	`d©e
 ("Y-m-d H:i:s"));
 
-63 
+66 
 	}
 }
 
-65 
+68 
 funùiÚ
  
 	$about
 ()
 
-67  
+70  
 	`šfo_·ge
 ( "ftqq.com è£èª‰å‡ºå“" , "About" );
 
-68 
+71 
 	}
 }
 
-70 
+73 
 funùiÚ
  
 	$cÚù
 ()
 
-72  
+75  
 	`šfo_·ge
 ( "Sina Weibo - <a href='http://weibo.com/easy'arget='_blank'>@Easy</a> | Twitter - @Easychen" , "Follow Me" );
 
-73 
+76 
 	}
 }
 
-75 
+78 
 funùiÚ
  
 	$‹¡
 ()
 
-77 
+80 
 $d©a
 ['title'] = $data['top_title'] = 'è‡ªåŠ¨æµ‹è¯•é¡µ';
 
-78 
+81 
 $d©a
 ['info'] = 'æ ¹æ®è®¿é—®æ¥æºè‡ªåŠ¨åˆ‡æ¢Layout';
 
-80  
+83  
 	`»nd”
 Ğ
 $d©a
  );
 
-81 
+84 
 	}
 }
 
-83 
+86 
 funùiÚ
  
 	$sql
 ()
 
-85 
+88 
 	`db
 ();
 
-86 
+89 
 echo
  
 $sql
@@ -57723,7 +57727,59 @@ $sql
 	`¬¿y
 ( "Easy'" , '-1', '9.56' ) );
 
-87 
+90 
+	}
+}
+
+	@F:\Site\stew\1\controller\other.class.php
+
+1 <?
+php
+
+
+2 ià(!
+defšed
+('IN')è
+d›
+('bad„equest');
+
+3 
+šşude_Úû
+ ( 
+AROOT
+ . 'cÚŒŞËr'.
+DS
+.'app.class.php' );
+
+5 şas 
+	cÙh”CÚŒŞËr
+ 
+ex‹nds
+ 
+	m­pCÚŒŞËr
+
+
+7 
+funùiÚ
+ 
+	$šdex
+()
+
+9 
+echo
+ "other class index function";
+
+12 
+funùiÚ
+ 
+	$¯
+()
+
+14 
+echo
+ "other class‡a function";
+
+15 
 	}
 }
 
@@ -57733,21 +57789,13 @@ $sql
 php
 
 
-2 şas 
-	cshowCouŒŞËr
- 
-ex‹nds
- 
-	mcÜeCÚŒŞËr
-
-
-4 
+2 
 funùiÚ
  
 	$show
 (){
 
-5 
+3 
 $uid
  = 
 	`štv®
@@ -57755,7 +57803,7 @@ $uid
 $_REQUEST
 ['uid']);
 
-6 ifĞ
+4 ifĞ
 $uid
  < 1 )  
 	`šfo_·ge
@@ -57763,7 +57811,7 @@ $uid
 uid
 â€™);
 
-7 
+5 
 $d©a
 ['u£r'] = 
 	`g‘_u£r_šfo_by_id
@@ -57771,13 +57819,13 @@ $d©a
 $uid
  );
 
-8 
+6 
 	`»nd”
 Ğ
 $d©a
  );
 
-10 
+7 
 	}
 }
 
@@ -57787,7 +57835,13 @@ $d©a
 php
 
 
-2 
+2 ià(!
+defšed
+('IN')è
+d›
+('bad„equest');
+
+3 
 šşude_Úû
 Ğ
 AROOT
@@ -57795,7 +57849,7 @@ AROOT
 DS
 .'app.class.php' );
 
-4 şas 
+5 şas 
 	cu£rCÚŒŞËr
  
 ex‹nds
@@ -57803,53 +57857,93 @@ ex‹nds
 	m­pCÚŒŞËr
 
 
-6 
+7 
 funùiÚ
  
 	$__cÚ¡ruù
 ()
 
-8 
+9 
 ·»Á
 ::
 	`__cÚ¡ruù
 ();
 
-11 
+12 
+funùiÚ
+ 
+	$show
+()
+
+14 
+$uid
+ = 
+	`štv®
+(
+$_REQUEST
+['uid']);
+
+16 ifĞ
+$uid
+ < 1 )  
+	`šfo_·ge
+(â€˜é”™è¯¯çš„
+uid
+â€™);
+
+18 
+$d©a
+['u£r'] = 
+	`g‘_u£r_šfo_by_id
+Ğ
+$uid
+ );
+
+20 
+	`»nd”
+Ğ
+$d©a
+ );
+
+21 
+	}
+}
+
+23 
 funùiÚ
  
 	$logš
 ()
 
-14 
+26 
 	}
 }
 
-16 
+28 
 funùiÚ
  ()
 
-19 
+31 
 	}
 }
 
-21 
+33 
 funùiÚ
  
 	$logout
 ()
 
-24 
+36 
 	}
 }
 
-26 
+38 
 funùiÚ
  
 	$d‘a
 ()
 
-29 
+41 
 	}
 }
 
@@ -57875,7 +57969,7 @@ __FILE__
 DS
  );
 
-9 
+10 
 šşude_Úû
 Ğ'_Í'.
 DS
@@ -57883,7 +57977,7 @@ DS
 
 	@F:\Site\stew\1\lib\app.function.php
 
-	@F:\Site\stew\1\lib\tiny_but_strong.class.php
+	@F:\Site\stew\1\lib\tbs_class.php
 
 1 <?
 php
@@ -81157,9 +81251,13 @@ $uid
 	`štv®
 (
 $uid
-) . " LIMIT 1 " )
+) . " LIMIT 1 " );
 
-	@F:\Site\stew\1\test\firephp-test.php
+5 
+	}
+}
+
+	@F:\Site\stew\1\test\firephp-dome.php
 
 2 <!
 DOCTYPE
@@ -81895,8 +81993,8 @@ $d©a2
 1
 .
 0
-66
-2819
+67
+2849
 F:\Site\stew\1\_lp\core\config\core.config.php
 F:\Site\stew\1\_lp\core\controller\core.class.php
 F:\Site\stew\1\_lp\core\lib\core.function.php
@@ -81951,14 +82049,15 @@ F:\Site\stew\1\config\app.config.php
 F:\Site\stew\1\config\db.config.php
 F:\Site\stew\1\controller\app.class.php
 F:\Site\stew\1\controller\default.class.php
+F:\Site\stew\1\controller\other.class.php
 F:\Site\stew\1\controller\show.class.php
 F:\Site\stew\1\controller\user.class.php
 F:\Site\stew\1\index.php
 F:\Site\stew\1\lib\app.function.php
-F:\Site\stew\1\lib\tiny_but_strong.class.php
+F:\Site\stew\1\lib\tbs_class.php
 F:\Site\stew\1\local\zh_cn.lang.php
 F:\Site\stew\1\model\user.function.php
-F:\Site\stew\1\test\firephp-test.php
+F:\Site\stew\1\test\firephp-dome.php
 F:\Site\stew\1\test\index.php
 F:\Site\stew\1\test\phptest\core.test.php
 F:\Site\stew\1\test\phptest\fast.test.php

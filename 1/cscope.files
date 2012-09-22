@@ -3,13 +3,14 @@ F:\Site\stew\1\config\app.config.php
 F:\Site\stew\1\config\db.config.php
 F:\Site\stew\1\controller\app.class.php
 F:\Site\stew\1\controller\default.class.php
+F:\Site\stew\1\controller\other.class.php
 F:\Site\stew\1\controller\show.class.php
 F:\Site\stew\1\controller\user.class.php
 F:\Site\stew\1\lib\app.function.php
-F:\Site\stew\1\lib\tiny_but_strong.class.php
+F:\Site\stew\1\lib\tbs_class.php
 F:\Site\stew\1\local\zh_cn.lang.php
 F:\Site\stew\1\model\user.function.php
-F:\Site\stew\1\test\firephp-test.php
+F:\Site\stew\1\test\firephp-dome.php
 F:\Site\stew\1\test\index.php
 F:\Site\stew\1\test\phptest\core.test.php
 F:\Site\stew\1\test\phptest\fast.test.php
