@@ -163,7 +163,3 @@ pip-log.txt
 .DS_Store
 
 
-# cscope
-
-cscope.files
-cscope.out
