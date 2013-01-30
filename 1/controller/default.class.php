@@ -13,6 +13,22 @@ class defaultController extends appController
 	{
 		$data['title'] = $data['top_title'] = '首页';
 		render( $data );
+		
+		//debug
+		echo "$data";
+		echo " by echo <br />";
+		print_r($data);
+		echo " by pring_r <br />";
+		var_dump($data);
+		echo " by var_dump <br />";
+		var_export($data);
+		echo " by var_export <br />";
+		debug_zval_dump($data);
+		echo " by debug_zval_dump <br />";
+		debug_print_backtrace();
+		echo " by debug_pring_backtrace <br />";
+		include_once('FirePHPCore/fb.php');  
+		FB::log($data);
 	}
 	
 	function ajax_test()
@@ -45,6 +61,7 @@ class defaultController extends appController
 	
 	function ajax_load()
 	{
+		date_default_timezone_set('Asia/Chongqing');
 		return ajax_echo('Hello ' . date("Y-m-d H:i:s"));
 	}
 	
@@ -71,7 +88,11 @@ class defaultController extends appController
 		db();
 		echo $sql = prepare( "SELECT * FROM `user` WHERE `name` = ?s AND `uid` = ?i AND `level` = ?s LIMIT 1" , array( "Easy'" , '-1', '9.56' ) );	
 	}
-	
-	
+
+	function info()
+	{
+		return render( $data, null, 'info');
+	}
+    
 }
 	

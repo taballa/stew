@@ -33,8 +33,8 @@ $cont_file = AROOT . 'controller'  . DS . $c . $post_fix;
 $class_name = $c .'Controller' ; 
 if( !file_exists( $cont_file ) )
 {
-	$cont_file = CROOT . 'controller' . DS . $c . $post_fix;
-	if( !file_exists( $cont_file ) ) die('Can\'t find controller file - ' . $c . $post_fix );
+    $cont_file = CROOT . 'controller' . DS . $c . $post_fix;
+    if( !file_exists( $cont_file ) ) die('Can\'t find controller file - ' . $c . $post_fix );
 } 
 
 
